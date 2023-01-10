@@ -66,7 +66,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
         script: |
-          # Выполняет pull образа с DockerHub/ нАДЕЮСЬ ПОЧИНИЛ
+          # Выполняет pull образа с DockerHub/ нАДЕЮСЬ ПОЧИНИЛ наверно
           sudo docker pull kultmet/infra_action
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
