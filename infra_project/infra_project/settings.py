@@ -32,7 +32,7 @@ load_dotenv()
 SERVER_NAME = os.getenv('SERVER_NAME', 'localhost')
 
 
-ALLOWED_HOSTS = [SERVER_NAME, ]
+ALLOWED_HOSTS = ['158.160.4.11', ]
 
 
 # Application definition
